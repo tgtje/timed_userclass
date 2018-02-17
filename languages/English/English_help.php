@@ -8,7 +8,7 @@
  * |
  * +---------------------------------------------------------------+
  */
-define('LAN_HELP_TITLE', 'Help');
-define('LAN_HELP_BUG', 'Bugs');
-define('LAN_HELP_LINK',  'For the help manual for this plugin visit :');
-define('LAN_HELP_BUGS',  'To report bugs in this plugin visit :');
+define("LAN_HELP_TITLE", "Help");
+define("LAN_HELP_BUG", "Bugs");
+define("LAN_HELP_LINK",  "For the help manual for this plugin visit :");
+define("LAN_HELP_BUGS",  "To report bugs in this plugin visit :");
