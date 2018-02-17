@@ -23,6 +23,9 @@ if (!getperms("P"))
     exit;
 }
 e107::lan('timed_userclass', true, true);
+e107::lan('timed_userclass', "help", true);
+
+
 
 class plugin_timed_userclass_admin extends e_admin_dispatcher
 {
@@ -51,10 +54,10 @@ class plugin_timed_userclass_admin extends e_admin_dispatcher
      * @var array
      */
     protected $adminMenu = array(
-        'main/list' => array('caption' => 'Manage Times', 'perm' => '0'),
+        'main/list' => array('caption' => TCLASS_ADM1, 'perm' => '0'),
         'main/create' => array('caption' => LAN_CREATE, 'perm' => '0'),
-        'main/prefs' => array('caption' => 'Settings', 'perm' => '0'),
-        'main/rules' => array('caption' => 'Manage Rules', 'perm' => '0'),
+        'main/prefs' => array('caption' => TCLASS_ADM2, 'perm' => '0'),
+        'main/rules' => array('caption' => TCLASS_ADM3, 'perm' => '0'),
         'main/rulecreate' => array('caption' => 'LAN_CREATE', 'perm' => '0')
         );
 
