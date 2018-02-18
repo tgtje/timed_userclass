@@ -31,7 +31,7 @@ if (!is_object($tclass_obj))
     $tclass_obj = new timed_userclass;
 }
 
-include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");
+include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");  //this path does NOT exist!!!!! 
 #print_a($pref);
 if (e_QUERY == "update")
 {
