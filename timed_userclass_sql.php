@@ -9,4 +9,4 @@ CREATE TABLE tclass (
   tclass_lastupdate int(11) unsigned NOT NULL default '0',
   tclass_donestart tinyint(3) unsigned NOT NULL default '0',
   PRIMARY KEY  (tclass_id)
- ) TYPE=MyISAM;
+ ) TYPE=MyISAM;  (((( unsure if it should not be ENGINE= )))
