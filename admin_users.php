@@ -55,7 +55,7 @@ if (!is_object($tclass_obj))
     $tclass_obj = new timed_userclass;
 }
 
-include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");
+include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php"); // path does not exist !!
 // if adding then save or save if saving
 if (isset($_POST['tclass_save']))
 {
