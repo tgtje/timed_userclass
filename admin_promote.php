@@ -33,7 +33,7 @@ if (!is_object($tclass_obj))
     $tclass_obj = new timed_userclass;
 }
 
-include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");
+include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");// path does not exist!!!
 
 $sql->db_Select("userclass_classes", "userclass_id,userclass_name", "order by userclass_name", "nowhere", false);
 while ($tclass_row = $sql->db_Fetch())
