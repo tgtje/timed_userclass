@@ -12,7 +12,7 @@
 */
 if (!defined('e107_INIT')) { exit; }
 
-include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php");
+include_lan(e_PLUGIN . "timed_userclass/languages/admin/" . e_LANGUAGE . ".php"); //path does not exist !!
 
 
 $action = basename($_SERVER['PHP_SELF'], ".php");
